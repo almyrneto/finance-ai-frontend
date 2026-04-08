@@ -1,16 +1,24 @@
-# React + Vite
+# Finance AI - Frontend ⚛️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interface moderna e responsiva para o controle de finanças pessoais, conectada a uma API FastAPI.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias
+- **React.js**
+- **Tailwind CSS**: Estilização moderna e utilitária.
+- **Axios**: Consumo de API.
+- **Lucide React**: Biblioteca de ícones.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Funcionalidades
+- **Dashboard de Transações**: Visualização limpa e organizada dos gastos.
+- **Formulário Inteligente**: Adição de descrição, valor e data.
+- **Formatação de Moeda e Data**: Exibição automática no padrão brasileiro (BRL e DD/MM/AAAA).
 
-## React Compiler
+## 🔧 Como rodar o projeto
+1. Clone o repositório.
+2. Instale as dependências:
+   ```bash
+   npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. Inicie o servidor de desenvolvimento:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm run dev
